@@ -85,6 +85,17 @@ header .fa-bars{
     background-position: center;
 
 }
+.home .content{
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color :#333; 
+}
+.home .content span{
+    font-size: 3.5rem;
+    color:	#FF0000;
+}
 
 
 
@@ -159,7 +170,7 @@ header .fa-bars{
 
     }
     header #toggler:checked ~ .navbar{
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
     }
     header .navbar a{
         margin:1.5rem;
