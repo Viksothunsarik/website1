@@ -17,6 +17,10 @@ html{
     scroll-padding-top: 6rem;
     overflow-x: hidden;
 }
+section {
+    padding: 2rem 9%;
+
+}
 header {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -57,27 +61,6 @@ header .icons a{
 header .icon a:hover{
     color:var(--pink)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header .icons {
     color:var(--pink);
 }
@@ -92,10 +75,16 @@ header .fa-bars{
     cursor: pointer;
     border: 1rem solid rgba(0,0,0,.3);
     display: none;
-
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../img1/background.png) no-repeat;
+    background-size:cover;
+    background-position: center;
 
 }
-
 
 
 
@@ -163,7 +152,7 @@ header .fa-bars{
     }
     header .navbar{
         position: absolute;
-        top: 0; left: 0;right: 0;
+        top: 100%; left: 0;right: 0;
         background: #eee;
         border-top: 1rem soild rgba(0,0,0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0 ,0 0);
