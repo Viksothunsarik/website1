@@ -17,6 +17,42 @@ html{
     scroll-padding-top: 6rem;
     overflow-x: hidden;
 }
+.boxContainer{
+    margin: 20px;
+    margin-left: 20px;
+    position: auto;
+    width: 20px;
+    height: 42px;
+    border: 4px soild #202224;
+    padding: 0px 10px;
+    border-radius: 50px;
+
+}
+.elementContainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+
+}
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Nunito";
+    color: #424242;
+    font-weight: 500;
+
+}
+.elementContainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+
+}
+
 section {
     padding: 2rem 9%;
 
@@ -90,19 +126,20 @@ header .fa-bars{
 }
 .home .content h3{
     font-size: 6rem;
-    color :#ffffff; 
+    color :#ece8e1; 
     
 }
 .home .content span{
     font-size: 3.5rem;
-    color:	#FF0000;
+    color:	#c46464;
     font-family:Fantasy ;
     padding: 1rem 0;
     line-height: 1.5;
 }
 .font1{
-    color: #eee;
-    font-size: 20px ;
+    color: #ece8e1;
+    font-size: 18px ;
+    font-family: Georgia, serif;
 
 }
 .btn{
@@ -119,7 +156,9 @@ header .fa-bars{
 .btn:hover{
     color: black;
     background-color: #fff;
+    box-shadow: 15px 15px 15px black;
 }
+
 
 
 
@@ -180,6 +219,10 @@ header .fa-bars{
     header {
         padding:2rem;
     }
+    section{
+        padding: 2rem;
+        background-position: left;
+    }
 }
 @media (max-width:768px){
     header .fa-bars{
@@ -203,6 +246,11 @@ header .fa-bars{
         border: 1rem soild rgba(0,0,0,.1);
         display: block;
     }
-
+    .home .content h3{
+        font-size: 5rem;
+    }
+    .home .content span{
+        font-size: 2.5rem;
+    }
     
 }
